@@ -1,7 +1,8 @@
 <?php
-    echo "Nama          :   Davind Anugraha Putra|Biasa dipanggil Dapind,PinDSG";
-  	echo "<br>";
-  	echo "Kelas         :   X RPL 1";
-  	echo "<br>";
-    echo "Nomor Absen   :   11";
+	$nama="Davin Anugraha putra";
+	$kelas="X RPL1"
+	$noabs="11"
+	echo "Nama :"$nama;
+	echo "Kelas :"$kelas;
+	echo "Nomor Absen :"$noabs;
 ?>
