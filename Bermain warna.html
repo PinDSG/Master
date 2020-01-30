@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>Bermain Warna</title> 
+  <style>
+        body{
+        background: <?php echo $_GET["color"]?>;
+}
+    </style>
+ </head> 
+ <?php
+    if(empty($_GET["color"]))
+    {
+?> 
+ <?php
+}
+?> 
+ <body> 
+  <form action="" method="GET"> 
+   <label>Pilih Background Warna</label>
+   <br> 
+   <input type="color" name="color">
+   <hr> 
+   <button>Simpan</button> 
+  </form> 
+ </body>
+</html>
